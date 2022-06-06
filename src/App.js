@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./styles/GlobalStyles";
-import { dark } from "./styles/Themes";
+import { light } from "./styles/Themes";
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './components/sections/Home';
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <ThemeProvider theme={dark}>
+      <ThemeProvider theme={light}>
         <Navigation />
         <Home />
         <About />

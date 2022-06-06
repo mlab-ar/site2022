@@ -1,6 +1,5 @@
 {
-  "url": "http://tokensport.co",
-  "name": "landing-token",
+  "name": "landing-tbc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
