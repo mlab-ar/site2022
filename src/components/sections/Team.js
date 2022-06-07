@@ -120,8 +120,8 @@ const Team = () => {
     <Section id="team">
       <Title>Team</Title>
       <Container>
-        <MemberComponent img={alejo} name="Daniela Llano" position="Software Engineer" />
-        <MemberComponent img={jfg} name="Facundo Duran" position="Software Engineer" />
+        <MemberComponent img={dani} name="Daniela Llano" position="Software Engineer" />
+        <MemberComponent img={facu} name="Facundo Duran" position="Software Engineer" />
         <MemberComponent img={jpr} name="Juan Pablo Romano" position="Co-founder / CTO" />
         <MemberComponent img={sol} name="Sol Alvar" position="Co-founder / Software Engineer" />
         <MemberComponent img={facu} name="Facundo Duran" position="Co-founder / Software Engineer" />
