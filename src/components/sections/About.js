@@ -168,7 +168,7 @@ const About = () => {
       <Container>
         <Box>
           <ImageContainer>
-            <img src={appDesign} alt='app reacciones' />
+            <img src={appDesign} alt='The Bit Coop' />
           </ImageContainer>
         </Box>
         <Box>

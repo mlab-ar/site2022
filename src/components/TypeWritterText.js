@@ -7,7 +7,7 @@ const Title = styled.h2`
 font-size: ${props => props.theme.fontxxl};
 width: 80%;
 height: fit-content;
-color: ${props => props.theme.text};
+color: #000000;
 align-self: flex-start;
 
 
@@ -27,7 +27,7 @@ align-self: flex-start;
 
 const SubTitle = styled.h3`
 font-size: ${props => props.theme.fontlg};
-color: ${props => `rgba(${props.theme.textRgba}, 0.6)`};
+color: #000000;
 margin: 2rem 0 1rem 0;
 font-weight: 600;
 width: 80%;
@@ -98,10 +98,10 @@ const TypeWritterText = () => {
   return (
     <>
     <Title>
-        Comparte tu pasión y conecta
+        We are
         <Typewriter options={{ loop: true }}
             onInit={(typewriter) => {
-                typewriter.typeString(' con la web 3.0')
+                typewriter.typeString(' The Bit Coop')
                 .pauseFor(3000)
                 .start();
             }}
@@ -109,10 +109,9 @@ const TypeWritterText = () => {
         
     </Title>
     <SubTitle>
-        Crea tu FanID, Aplaude o Abuchea en vivo y sé parte de la comunidad de fanáticos más grande del mundo.
+        We are software developers, geeks, nerds and hackers who are tweaking with technology since we were kids eons ago and we love it.
     </SubTitle>
     <ButtonContainer>
-        <Button onClick={() => setActive(true)}>Ver Más</Button>
         <Modal active={active} hideModal={() => setActive(false)}/>
     </ButtonContainer>
     </>

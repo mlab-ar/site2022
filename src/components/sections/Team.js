@@ -123,7 +123,6 @@ const Team = () => {
         <MemberComponent img={dani} name="Daniela Llano" position="Software Engineer" />
         <MemberComponent img={sol} name="Sol Alvar" position="Software Engineer" />
         <MemberComponent img={facu} name="Facundo Duran" position="Software Engineer" />
-        {/*<MemberComponent img={feli} name="Felipe Peyrano" position="Community Manager" />*/]
         <MemberComponent img={jpr} name="Juan Pablo Romano" position="Tech Lead" />
       </Container>
     </Section>
