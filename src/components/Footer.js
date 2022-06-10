@@ -1,6 +1,4 @@
 import styled from 'styled-components'
-import Banner from './Banner'
-import Logo from './Logo'
 import Facebook from '../Icons/Facebook'
 import LinkedIn from '../Icons/LinkedIn'
 import Twitter from '../Icons/Twitter'
@@ -160,7 +158,7 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} Token Sport. All rigths reserved.
+          &copy; {new Date().getFullYear()} The Bit Coop. All rigths reserved.
         </span>
         <span>
           Made with &#10084;
