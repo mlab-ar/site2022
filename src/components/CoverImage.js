@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import logo from '../assets/images/Manual-de-Marca-2-47.png'
+import logo from '../assets/images/logo.jpg'
 
 const ImageContainer = styled.div`
 width: 100%;

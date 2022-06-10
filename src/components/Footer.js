@@ -9,7 +9,7 @@ import Discord from '../Icons/Discord'
 
 
 const Section = styled.section`
-min-height: 100vh;
+height: 30vh;
 width: 100vw;
 background-color: ${props => props.theme.body};
 color: ${props => props.theme.text};
@@ -24,6 +24,7 @@ margin: 2rem auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding-bottom: 30px;
 border-bottom: 1px solid ${props => props.theme.text};
 
 @media (max-width: 48em) {
@@ -128,10 +129,8 @@ const Footer = () => {
 
   return (
     <Section>
-      <Banner />
       <Container>
         <Left>
-          <Logo />
           <IconList>
             <a href='#' target='_blank' rel="noopener">
               <Facebook />
@@ -164,7 +163,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Token Sport. All rigths reserved.
         </span>
         <span>
-          Made with &#10084; by <a href="#" target="_blank" rel="noopener noreferrer">The Bit Coop</a>
+          Made with &#10084;
         </span>
       </Bottom>
     </Section>

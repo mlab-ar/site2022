@@ -5,14 +5,14 @@ import Button from './Button'
 
 const Section = styled.section`
 width: 100vw;
-background-color: ${props => props.theme.body}
+background-color: #4ce69d;
 `
 
 const Navbar = styled.nav`
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
-width: 85%;
+width: 100%;
 height: ${props => props.theme.navHeight};
 margin: 0 auto;
 
@@ -59,7 +59,8 @@ display: flex;
 
 const MenuItem = styled.li`
 margin: 0 1rem;
-color: ${props => props.theme.text};
+color: #000;
+font-weight: bold;
 cursor: pointer;
 
 &::after {
