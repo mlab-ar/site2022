@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import CoverImage from '../CoverImage'
 import TypeWritterText from '../TypeWritterText'
+import Particle from "react-particles-js";
+import particlesConfig from "../assets/particlesConfig.json";
 
 const Section = styled.section`
 min-height: ${props => `calc(100vh - ${props.theme.navHeight})`};
@@ -11,7 +13,7 @@ background-color: #FFF;
 
 const Container = styled.div`
 width: 75%;
-min-height: 80vh;
+min-height: 80vh;+
 margin: 0 auto;
 display: flex;
 justify-content: center;
@@ -45,6 +47,7 @@ color: #000000;
 const Home = () => {
   return (
     <Section id="home">
+      <Particle params={particlesConfig} className="App-particles__container" />
       <Container>
         <Box>
           <TypeWritterText />
