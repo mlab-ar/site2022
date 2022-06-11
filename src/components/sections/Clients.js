@@ -1,10 +1,8 @@
 import styled, { ThemeProvider } from 'styled-components'
 import Carousel from '../Carousel'
-import Button from '../Button'
-import { dark } from '../../styles/Themes'
 
 const Section = styled.section`
-min-height: 100vh;
+height: 50vh;
 width: 100%;
 background-color: ${props => props.theme.body};
 display: flex;
@@ -94,22 +92,6 @@ margin: 1rem auto;
   font-size: ${(props) => props.theme.fontsm};
 }
 `
-
-const ButtonContainer = styled.div`
-width: 80%;
-align-self: flex-start;
-margin: 1rem auto;
-display: flex;
-
-@media (max-width: 64em) {
-  width: 100%;
-  
-  button {
-    margin: 0 auto;
-  }
-}
-`
-
 
 const clients = () => {
   return (

@@ -8,19 +8,17 @@ import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import croatia from '../assets/Nfts/card-croatia.jpeg'
-import england from '../assets/Nfts/card-england.jpeg'
-import france from '../assets/Nfts/card-france.jpeg'
-import iran from '../assets/Nfts/card-iran.jpeg'
-import saudiArabia from '../assets/Nfts/card-saudi-arabia.jpeg'
-import serbia from '../assets/Nfts/card-serbia.jpeg'
-import southKorea from '../assets/Nfts/card-south-korea.jpeg'
-import spain from '../assets/Nfts/card-spain.jpeg'
-import switzerland from '../assets/Nfts/card-switzerland.jpeg'
+import american_express from "../assets/clients/american_express.png"
+import nicar_logo from "../assets/clients/nicar_logo.jpeg"
+import alkemy_logo from "../assets/clients/alkemy_logo.png"
+import cronista_logo from "../assets/clients/cronista_logo.png"
+import cronica_logo from "../assets/clients/cronica_logo.png"
+import veintitres_logo from "../assets/clients/veintitres_logo.png"
 
 const Container = styled.div`
 width: 25vw;
 height: 70vh;
+margin-top: 40vh;
 
 @media (max-width: 70em) {
     height: 60vh;
@@ -43,7 +41,7 @@ height: 70vh;
 
 .swiper {
     width: 100%;
-    height: 100%;
+    height: 40%;
 }
 
 .swiper-slide {
@@ -54,12 +52,9 @@ height: 70vh;
     border: 1px solid black;
 
     img {
-        width: auto;
-        height: 80%;
-        position: relative;
-        left: 16%;
-        right: 50%;
-        margin: 1rem;
+        width: 100%;
+        height: 100%;
+        position: center;
     }
 }
 
@@ -124,31 +119,22 @@ const Carousel = () => {
             className="mySwiper"
         >
             <SwiperSlide>
-                <img src={croatia} alt="Token Sport NFT" />
+                <img src={american_express} alt="American Express" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={england} alt="Token Sport NFT" />
+                <img src={nicar_logo} alt="Nic Argentina" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={france} alt="Token Sport NFT" />
+                <img src={alkemy_logo} alt="Alkemy" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={iran} alt="Token Sport NFT" />
+                <img src={cronista_logo} alt="Cronista Comercial" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={saudiArabia} alt="Token Sport NFT" />
+                <img src={cronica_logo} alt="Cronica" />
             </SwiperSlide>
             <SwiperSlide>
-                <img src={serbia} alt="Token Sport NFT" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={southKorea} alt="Token Sport NFT" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={spain} alt="Token Sport NFT" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={switzerland} alt="Token Sport NFT" />
+                <img src={veintitres_logo} alt="Revista Veintitres" />
             </SwiperSlide>
         </Swiper>
     </Container>
