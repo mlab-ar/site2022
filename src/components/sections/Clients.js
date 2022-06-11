@@ -120,7 +120,7 @@ const clients = () => {
             Clients
           </Title>
           <SubText>
-          Ya puedes coleccionar las cartas conmemorativas Qatar2022. Cada NFT te dará accesos exclusivos dentro de la app y beneficios únicos en actividades que realice la comunidad de Token Sport.
+          This are the clients who trusted and keep trusting on us to be their technological partners.
           </SubText>
         </Box>
         <Box>
