@@ -600,6 +600,7 @@ strong {
 
 .clients-item-height {
 	height: 200px;
+  margin-bottom: 50px;
 }
 
 .clients-image {
@@ -607,6 +608,7 @@ strong {
   max-width: 200px;
   margin: auto;
   transition: all ease 0.2s;
+  border-radius: 50%;
 }
 
 .clients-image:hover {
