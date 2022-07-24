@@ -599,12 +599,12 @@ strong {
 -----------------------------------------*/
 
 .clients-item-height {
-	height: 120px;
+	height: 200px;
 }
 
 .clients-image {
   display: block;
-  max-width: 100px;
+  max-width: 200px;
   margin: auto;
   transition: all ease 0.2s;
 }
